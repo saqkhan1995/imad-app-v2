@@ -213,7 +213,50 @@ header{
 	
 	background:#0177bf;
 	color:#ffffff;
-	padding-top:1px;
+	padding:10px;
+	min-height:20px;
+    
+
+	
+}
+    header a{
+        font-size: 13px;
+        display: inline;
+    }
+    header li{
+	float:left;
+	display:inline;
+	padding:0 10px 0 10px;
+}
+    header #brand{
+	
+	font-size: 13px;
+	
+}
+    #name h2{
+        font-size: 10px;
+    }
+
+
+}
+
+@media(max-width:335px){
+	header #brand, 
+	header nav, 
+	header nav li,
+	#nextarea h1,
+	#nextarea form,
+	#boxes .box{
+		float:none;
+		text-align:center;
+		width:100%;
+}
+    
+header{
+	
+	background:#0177bf;
+	color:#ffffff;
+	padding:10px;
 	min-height:70px;
     
 
@@ -221,33 +264,21 @@ header{
 }
     header a{
         font-size: 13px;
-        display: block;
+        display: inline;
     }
     header li{
 	float:left;
 	display:inline;
-	padding:0 0px 0 1px;
+	padding:0 1px 0 2px;
 }
     header #brand{
 	
-	font-size: 12px;
+	font-size: 10px;
 	
 }
     #name h2{
         font-size: 10px;
     }
 
-#showcase h2{
-    font-size: 16px;
-	margin-top:0px;
-}
-#nextarea button{
-	display:block;
-	width:100%;
-}
-#nextarea form input[type="email"]{
-	width:100%;
-	margin-bottom:5px; 
-}
 
 }
